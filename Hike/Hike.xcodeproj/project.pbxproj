@@ -7,24 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0905D29B2BB9EAB40045A9FA /* ios_learnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0905D29A2BB9EAB40045A9FA /* ios_learnApp.swift */; };
-		0905D29D2BB9EAB40045A9FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0905D29C2BB9EAB40045A9FA /* ContentView.swift */; };
-		0905D29F2BB9EAB60045A9FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0905D29E2BB9EAB60045A9FA /* Assets.xcassets */; };
-		0905D2A22BB9EAB60045A9FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0905D2A12BB9EAB60045A9FA /* Preview Assets.xcassets */; };
-		09622FF92BBC9D8800E77543 /* SwiftUI-Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09622FF82BBC9D8800E77543 /* SwiftUI-Text.swift */; };
+		096230072BBD5C8600E77543 /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096230062BBD5C8600E77543 /* HikeApp.swift */; };
+		096230092BBD5C8600E77543 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096230082BBD5C8600E77543 /* ContentView.swift */; };
+		0962300B2BBD5C8700E77543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0962300A2BBD5C8700E77543 /* Assets.xcassets */; };
+		0962300E2BBD5C8700E77543 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0962300D2BBD5C8700E77543 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0905D2972BB9EAB40045A9FA /* ios-learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-learn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0905D29A2BB9EAB40045A9FA /* ios_learnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_learnApp.swift; sourceTree = "<group>"; };
-		0905D29C2BB9EAB40045A9FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 1; };
-		0905D29E2BB9EAB60045A9FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0905D2A12BB9EAB60045A9FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		09622FF82BBC9D8800E77543 /* SwiftUI-Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI-Text.swift"; sourceTree = "<group>"; };
+		096230032BBD5C8600E77543 /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		096230062BBD5C8600E77543 /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
+		096230082BBD5C8600E77543 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0962300A2BBD5C8700E77543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0962300D2BBD5C8700E77543 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0905D2942BB9EAB40045A9FA /* Frameworks */ = {
+		096230002BBD5C8600E77543 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,38 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0905D28E2BB9EAB40045A9FA = {
+		09622FFA2BBD5C8600E77543 = {
 			isa = PBXGroup;
 			children = (
-				0905D2992BB9EAB40045A9FA /* ios-learn */,
-				0905D2982BB9EAB40045A9FA /* Products */,
+				096230052BBD5C8600E77543 /* Hike */,
+				096230042BBD5C8600E77543 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0905D2982BB9EAB40045A9FA /* Products */ = {
+		096230042BBD5C8600E77543 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0905D2972BB9EAB40045A9FA /* ios-learn.app */,
+				096230032BBD5C8600E77543 /* Hike.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0905D2992BB9EAB40045A9FA /* ios-learn */ = {
+		096230052BBD5C8600E77543 /* Hike */ = {
 			isa = PBXGroup;
 			children = (
-				0905D29A2BB9EAB40045A9FA /* ios_learnApp.swift */,
-				0905D29C2BB9EAB40045A9FA /* ContentView.swift */,
-				09622FF82BBC9D8800E77543 /* SwiftUI-Text.swift */,
-				0905D29E2BB9EAB60045A9FA /* Assets.xcassets */,
-				0905D2A02BB9EAB60045A9FA /* Preview Content */,
+				096230062BBD5C8600E77543 /* HikeApp.swift */,
+				096230082BBD5C8600E77543 /* ContentView.swift */,
+				0962300A2BBD5C8700E77543 /* Assets.xcassets */,
+				0962300C2BBD5C8700E77543 /* Preview Content */,
 			);
-			path = "ios-learn";
+			path = Hike;
 			sourceTree = "<group>";
 		};
-		0905D2A02BB9EAB60045A9FA /* Preview Content */ = {
+		0962300C2BBD5C8700E77543 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				0905D2A12BB9EAB60045A9FA /* Preview Assets.xcassets */,
+				0962300D2BBD5C8700E77543 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -73,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0905D2962BB9EAB40045A9FA /* ios-learn */ = {
+		096230022BBD5C8600E77543 /* Hike */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0905D2A52BB9EAB60045A9FA /* Build configuration list for PBXNativeTarget "ios-learn" */;
+			buildConfigurationList = 096230112BBD5C8700E77543 /* Build configuration list for PBXNativeTarget "Hike" */;
 			buildPhases = (
-				0905D2932BB9EAB40045A9FA /* Sources */,
-				0905D2942BB9EAB40045A9FA /* Frameworks */,
-				0905D2952BB9EAB40045A9FA /* Resources */,
+				09622FFF2BBD5C8600E77543 /* Sources */,
+				096230002BBD5C8600E77543 /* Frameworks */,
+				096230012BBD5C8600E77543 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "ios-learn";
-			productName = "ios-learn";
-			productReference = 0905D2972BB9EAB40045A9FA /* ios-learn.app */;
+			name = Hike;
+			productName = Hike;
+			productReference = 096230032BBD5C8600E77543 /* Hike.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0905D28F2BB9EAB40045A9FA /* Project object */ = {
+		09622FFB2BBD5C8600E77543 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					0905D2962BB9EAB40045A9FA = {
+					096230022BBD5C8600E77543 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 0905D2922BB9EAB40045A9FA /* Build configuration list for PBXProject "ios-learn" */;
+			buildConfigurationList = 09622FFE2BBD5C8600E77543 /* Build configuration list for PBXProject "Hike" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,43 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 0905D28E2BB9EAB40045A9FA;
-			productRefGroup = 0905D2982BB9EAB40045A9FA /* Products */;
+			mainGroup = 09622FFA2BBD5C8600E77543;
+			productRefGroup = 096230042BBD5C8600E77543 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0905D2962BB9EAB40045A9FA /* ios-learn */,
+				096230022BBD5C8600E77543 /* Hike */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0905D2952BB9EAB40045A9FA /* Resources */ = {
+		096230012BBD5C8600E77543 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0905D2A22BB9EAB60045A9FA /* Preview Assets.xcassets in Resources */,
-				0905D29F2BB9EAB60045A9FA /* Assets.xcassets in Resources */,
+				0962300E2BBD5C8700E77543 /* Preview Assets.xcassets in Resources */,
+				0962300B2BBD5C8700E77543 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0905D2932BB9EAB40045A9FA /* Sources */ = {
+		09622FFF2BBD5C8600E77543 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0905D29D2BB9EAB40045A9FA /* ContentView.swift in Sources */,
-				09622FF92BBC9D8800E77543 /* SwiftUI-Text.swift in Sources */,
-				0905D29B2BB9EAB40045A9FA /* ios_learnApp.swift in Sources */,
+				096230092BBD5C8600E77543 /* ContentView.swift in Sources */,
+				096230072BBD5C8600E77543 /* HikeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0905D2A32BB9EAB60045A9FA /* Debug */ = {
+		0962300F2BBD5C8700E77543 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -212,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		0905D2A42BB9EAB60045A9FA /* Release */ = {
+		096230102BBD5C8700E77543 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,14 +264,14 @@
 			};
 			name = Release;
 		};
-		0905D2A62BB9EAB60045A9FA /* Debug */ = {
+		096230122BBD5C8700E77543 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ios-learn/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Hike/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -288,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.swapnilxi.ios-learn";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swapnilxi.Hike;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,14 +292,14 @@
 			};
 			name = Debug;
 		};
-		0905D2A72BB9EAB60045A9FA /* Release */ = {
+		096230132BBD5C8700E77543 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ios-learn/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Hike/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -316,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.swapnilxi.ios-learn";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swapnilxi.Hike;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -327,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0905D2922BB9EAB40045A9FA /* Build configuration list for PBXProject "ios-learn" */ = {
+		09622FFE2BBD5C8600E77543 /* Build configuration list for PBXProject "Hike" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0905D2A32BB9EAB60045A9FA /* Debug */,
-				0905D2A42BB9EAB60045A9FA /* Release */,
+				0962300F2BBD5C8700E77543 /* Debug */,
+				096230102BBD5C8700E77543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0905D2A52BB9EAB60045A9FA /* Build configuration list for PBXNativeTarget "ios-learn" */ = {
+		096230112BBD5C8700E77543 /* Build configuration list for PBXNativeTarget "Hike" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0905D2A62BB9EAB60045A9FA /* Debug */,
-				0905D2A72BB9EAB60045A9FA /* Release */,
+				096230122BBD5C8700E77543 /* Debug */,
+				096230132BBD5C8700E77543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0905D28F2BB9EAB40045A9FA /* Project object */;
+	rootObject = 09622FFB2BBD5C8600E77543 /* Project object */;
 }
