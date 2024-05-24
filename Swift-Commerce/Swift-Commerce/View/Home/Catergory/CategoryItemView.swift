@@ -29,7 +29,7 @@ struct CategoryItemView: View {
           .padding()
           .background(Color.white.cornerRadius(12))
           .background(
-            RoundedRectangle(cornerRadius: CGFloat(12))
+            Rectangle()
               .stroke(Color.gray, lineWidth: 1)
           )
         }) //: BUTTON
