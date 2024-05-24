@@ -23,9 +23,9 @@ struct CategoryGridView: View {
                       header: SectionView(rotateClockwise: false),
                       footer: SectionView(rotateClockwise: true)
                     ) {
-//                      ForEach(categories) { category in
-//                        CategoryItemView(category: category)
-//                      }
+                      ForEach(categories) { category in
+                        CategoryItemView(category: category)
+                      }
                     }
                   }//GRIDContent
             )//: GRID
