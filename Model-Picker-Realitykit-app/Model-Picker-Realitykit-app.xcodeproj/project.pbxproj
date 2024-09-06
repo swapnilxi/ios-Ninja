@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152B4F692C89EFAE0089EE71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152B4F682C89EFAE0089EE71 /* AppDelegate.swift */; };
+		152B4F6B2C89EFAE0089EE71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152B4F6A2C89EFAE0089EE71 /* ContentView.swift */; };
+		152B4F6D2C89EFAF0089EE71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152B4F6C2C89EFAF0089EE71 /* Assets.xcassets */; };
+		152B4F702C89EFAF0089EE71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152B4F6F2C89EFAF0089EE71 /* Preview Assets.xcassets */; };
+		152B4F7A2C89EFB00089EE71 /* Model_Picker_Realitykit_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152B4F792C89EFB00089EE71 /* Model_Picker_Realitykit_appTests.swift */; };
+		152B4F842C89EFB00089EE71 /* Model_Picker_Realitykit_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152B4F832C89EFB00089EE71 /* Model_Picker_Realitykit_appUITests.swift */; };
+		152B4F862C89EFB00089EE71 /* Model_Picker_Realitykit_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152B4F852C89EFB00089EE71 /* Model_Picker_Realitykit_appUITestsLaunchTests.swift */; };
+		15C898422C8B868F00EC41FF /* toy_drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 15C898412C8B868F00EC41FF /* toy_drummer.usdz */; };
+		15C898432C8B868F00EC41FF /* sneaker_airforce.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 15C898402C8B868F00EC41FF /* sneaker_airforce.usdz */; };
+		15C898442C8B868F00EC41FF /* CosmonautSuit.reality in Resources */ = {isa = PBXBuildFile; fileRef = 15C8983F2C8B868F00EC41FF /* CosmonautSuit.reality */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		152B4F762C89EFB00089EE71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 152B4F5D2C89EFAE0089EE71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 152B4F642C89EFAE0089EE71;
+			remoteInfo = "Model-Picker-Realitykit-app";
+		};
+		152B4F802C89EFB00089EE71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 152B4F5D2C89EFAE0089EE71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 152B4F642C89EFAE0089EE71;
+			remoteInfo = "Model-Picker-Realitykit-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		152B4F652C89EFAE0089EE71 /* Model-Picker-Realitykit-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Model-Picker-Realitykit-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		152B4F682C89EFAE0089EE71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		152B4F6A2C89EFAE0089EE71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		152B4F6C2C89EFAF0089EE71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		152B4F6F2C89EFAF0089EE71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		152B4F752C89EFB00089EE71 /* Model-Picker-Realitykit-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Model-Picker-Realitykit-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		152B4F792C89EFB00089EE71 /* Model_Picker_Realitykit_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Picker_Realitykit_appTests.swift; sourceTree = "<group>"; };
+		152B4F7F2C89EFB00089EE71 /* Model-Picker-Realitykit-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Model-Picker-Realitykit-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		152B4F832C89EFB00089EE71 /* Model_Picker_Realitykit_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Picker_Realitykit_appUITests.swift; sourceTree = "<group>"; };
+		152B4F852C89EFB00089EE71 /* Model_Picker_Realitykit_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Picker_Realitykit_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15C8983F2C8B868F00EC41FF /* CosmonautSuit.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = CosmonautSuit.reality; sourceTree = "<group>"; };
+		15C898402C8B868F00EC41FF /* sneaker_airforce.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = sneaker_airforce.usdz; sourceTree = "<group>"; };
+		15C898412C8B868F00EC41FF /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = toy_drummer.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		152B4F622C89EFAE0089EE71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152B4F722C89EFB00089EE71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152B4F7C2C89EFB00089EE71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152B4F5C2C89EFAE0089EE71 = {
+			isa = PBXGroup;
+			children = (
+				152B4F672C89EFAE0089EE71 /* Model-Picker-Realitykit-app */,
+				152B4F782C89EFB00089EE71 /* Model-Picker-Realitykit-appTests */,
+				152B4F822C89EFB00089EE71 /* Model-Picker-Realitykit-appUITests */,
+				152B4F662C89EFAE0089EE71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		152B4F662C89EFAE0089EE71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				152B4F652C89EFAE0089EE71 /* Model-Picker-Realitykit-app.app */,
+				152B4F752C89EFB00089EE71 /* Model-Picker-Realitykit-appTests.xctest */,
+				152B4F7F2C89EFB00089EE71 /* Model-Picker-Realitykit-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		152B4F672C89EFAE0089EE71 /* Model-Picker-Realitykit-app */ = {
+			isa = PBXGroup;
+			children = (
+				15D405682C8A41D7001F07E9 /* Models */,
+				152B4F682C89EFAE0089EE71 /* AppDelegate.swift */,
+				152B4F6A2C89EFAE0089EE71 /* ContentView.swift */,
+				152B4F6C2C89EFAF0089EE71 /* Assets.xcassets */,
+				152B4F6E2C89EFAF0089EE71 /* Preview Content */,
+			);
+			path = "Model-Picker-Realitykit-app";
+			sourceTree = "<group>";
+		};
+		152B4F6E2C89EFAF0089EE71 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				152B4F6F2C89EFAF0089EE71 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		152B4F782C89EFB00089EE71 /* Model-Picker-Realitykit-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				152B4F792C89EFB00089EE71 /* Model_Picker_Realitykit_appTests.swift */,
+			);
+			path = "Model-Picker-Realitykit-appTests";
+			sourceTree = "<group>";
+		};
+		152B4F822C89EFB00089EE71 /* Model-Picker-Realitykit-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				152B4F832C89EFB00089EE71 /* Model_Picker_Realitykit_appUITests.swift */,
+				152B4F852C89EFB00089EE71 /* Model_Picker_Realitykit_appUITestsLaunchTests.swift */,
+			);
+			path = "Model-Picker-Realitykit-appUITests";
+			sourceTree = "<group>";
+		};
+		15D405682C8A41D7001F07E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				15C8983F2C8B868F00EC41FF /* CosmonautSuit.reality */,
+				15C898402C8B868F00EC41FF /* sneaker_airforce.usdz */,
+				15C898412C8B868F00EC41FF /* toy_drummer.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		152B4F642C89EFAE0089EE71 /* Model-Picker-Realitykit-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152B4F892C89EFB00089EE71 /* Build configuration list for PBXNativeTarget "Model-Picker-Realitykit-app" */;
+			buildPhases = (
+				152B4F612C89EFAE0089EE71 /* Sources */,
+				152B4F622C89EFAE0089EE71 /* Frameworks */,
+				152B4F632C89EFAE0089EE71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Model-Picker-Realitykit-app";
+			productName = "Model-Picker-Realitykit-app";
+			productReference = 152B4F652C89EFAE0089EE71 /* Model-Picker-Realitykit-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		152B4F742C89EFB00089EE71 /* Model-Picker-Realitykit-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152B4F8C2C89EFB00089EE71 /* Build configuration list for PBXNativeTarget "Model-Picker-Realitykit-appTests" */;
+			buildPhases = (
+				152B4F712C89EFB00089EE71 /* Sources */,
+				152B4F722C89EFB00089EE71 /* Frameworks */,
+				152B4F732C89EFB00089EE71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152B4F772C89EFB00089EE71 /* PBXTargetDependency */,
+			);
+			name = "Model-Picker-Realitykit-appTests";
+			productName = "Model-Picker-Realitykit-appTests";
+			productReference = 152B4F752C89EFB00089EE71 /* Model-Picker-Realitykit-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		152B4F7E2C89EFB00089EE71 /* Model-Picker-Realitykit-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152B4F8F2C89EFB00089EE71 /* Build configuration list for PBXNativeTarget "Model-Picker-Realitykit-appUITests" */;
+			buildPhases = (
+				152B4F7B2C89EFB00089EE71 /* Sources */,
+				152B4F7C2C89EFB00089EE71 /* Frameworks */,
+				152B4F7D2C89EFB00089EE71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152B4F812C89EFB00089EE71 /* PBXTargetDependency */,
+			);
+			name = "Model-Picker-Realitykit-appUITests";
+			productName = "Model-Picker-Realitykit-appUITests";
+			productReference = 152B4F7F2C89EFB00089EE71 /* Model-Picker-Realitykit-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		152B4F5D2C89EFAE0089EE71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					152B4F642C89EFAE0089EE71 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					152B4F742C89EFB00089EE71 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 152B4F642C89EFAE0089EE71;
+					};
+					152B4F7E2C89EFB00089EE71 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 152B4F642C89EFAE0089EE71;
+					};
+				};
+			};
+			buildConfigurationList = 152B4F602C89EFAE0089EE71 /* Build configuration list for PBXProject "Model-Picker-Realitykit-app" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 152B4F5C2C89EFAE0089EE71;
+			productRefGroup = 152B4F662C89EFAE0089EE71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				152B4F642C89EFAE0089EE71 /* Model-Picker-Realitykit-app */,
+				152B4F742C89EFB00089EE71 /* Model-Picker-Realitykit-appTests */,
+				152B4F7E2C89EFB00089EE71 /* Model-Picker-Realitykit-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		152B4F632C89EFAE0089EE71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C898422C8B868F00EC41FF /* toy_drummer.usdz in Resources */,
+				15C898432C8B868F00EC41FF /* sneaker_airforce.usdz in Resources */,
+				15C898442C8B868F00EC41FF /* CosmonautSuit.reality in Resources */,
+				152B4F702C89EFAF0089EE71 /* Preview Assets.xcassets in Resources */,
+				152B4F6D2C89EFAF0089EE71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152B4F732C89EFB00089EE71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152B4F7D2C89EFB00089EE71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		152B4F612C89EFAE0089EE71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152B4F6B2C89EFAE0089EE71 /* ContentView.swift in Sources */,
+				152B4F692C89EFAE0089EE71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152B4F712C89EFB00089EE71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152B4F7A2C89EFB00089EE71 /* Model_Picker_Realitykit_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152B4F7B2C89EFB00089EE71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152B4F862C89EFB00089EE71 /* Model_Picker_Realitykit_appUITestsLaunchTests.swift in Sources */,
+				152B4F842C89EFB00089EE71 /* Model_Picker_Realitykit_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		152B4F772C89EFB00089EE71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 152B4F642C89EFAE0089EE71 /* Model-Picker-Realitykit-app */;
+			targetProxy = 152B4F762C89EFB00089EE71 /* PBXContainerItemProxy */;
+		};
+		152B4F812C89EFB00089EE71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 152B4F642C89EFAE0089EE71 /* Model-Picker-Realitykit-app */;
+			targetProxy = 152B4F802C89EFB00089EE71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		152B4F872C89EFB00089EE71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		152B4F882C89EFB00089EE71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		152B4F8A2C89EFB00089EE71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Model-Picker-Realitykit-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swapnilxi.Model-Picker-Realitykit-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		152B4F8B2C89EFB00089EE71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Model-Picker-Realitykit-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swapnilxi.Model-Picker-Realitykit-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		152B4F8D2C89EFB00089EE71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swapnilxi.Model-Picker-Realitykit-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Model-Picker-Realitykit-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Model-Picker-Realitykit-app";
+			};
+			name = Debug;
+		};
+		152B4F8E2C89EFB00089EE71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swapnilxi.Model-Picker-Realitykit-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Model-Picker-Realitykit-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Model-Picker-Realitykit-app";
+			};
+			name = Release;
+		};
+		152B4F902C89EFB00089EE71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swapnilxi.Model-Picker-Realitykit-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Model-Picker-Realitykit-app";
+			};
+			name = Debug;
+		};
+		152B4F912C89EFB00089EE71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swapnilxi.Model-Picker-Realitykit-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Model-Picker-Realitykit-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		152B4F602C89EFAE0089EE71 /* Build configuration list for PBXProject "Model-Picker-Realitykit-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152B4F872C89EFB00089EE71 /* Debug */,
+				152B4F882C89EFB00089EE71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152B4F892C89EFB00089EE71 /* Build configuration list for PBXNativeTarget "Model-Picker-Realitykit-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152B4F8A2C89EFB00089EE71 /* Debug */,
+				152B4F8B2C89EFB00089EE71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152B4F8C2C89EFB00089EE71 /* Build configuration list for PBXNativeTarget "Model-Picker-Realitykit-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152B4F8D2C89EFB00089EE71 /* Debug */,
+				152B4F8E2C89EFB00089EE71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152B4F8F2C89EFB00089EE71 /* Build configuration list for PBXNativeTarget "Model-Picker-Realitykit-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152B4F902C89EFB00089EE71 /* Debug */,
+				152B4F912C89EFB00089EE71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 152B4F5D2C89EFAE0089EE71 /* Project object */;
+}
