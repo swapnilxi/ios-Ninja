@@ -14,7 +14,7 @@ struct ContentView : View {
 //                            "CosmonautSuit"]
     
     //ading state
-    @State var isPlacementEnabled: Bool = false;
+    @State var isPlacementEnabled: Bool = false ;
     
     private var models: [String] = {
     // Dynamically get our model filenames
@@ -40,9 +40,11 @@ struct ContentView : View {
         Text("Hello world")
         ZStack(alignment: .bottom){
             ARViewContainer()
-            
-            ModelPickerView(models: self.models)
-            PlacementButtonView()
+            if self.isPlacementEnabled{
+                PlacementButtonView(isPlacementEnabled: self.$isPlacementEnabled)
+             }else{
+                 ModelPickerView(isPlacementEnabled: self.$isPlacementEnabled , models: self.models)
+            }
         }
     }
 }
@@ -59,11 +61,13 @@ struct ARViewContainer: UIViewRepresentable {
 }
 
 struct PlacementButtonView : View {
+    @Binding var isPlacementEnabled: Bool
     var body: some View{
         HStack{
             // Cancel button
             Button(action: {
                 print("DEBUG: Cancel Model placement")
+                self.resetPlacementParameters()
             }) {
                 Image(systemName: "xmark")
                     .frame(width: 60, height: 60)
@@ -76,6 +80,7 @@ struct PlacementButtonView : View {
             // Confirm button
             Button(action: {
                 print("DEBUG: Model placement confirmed")
+                self.resetPlacementParameters()
             }) {
                 Image(systemName: "checkmark")
                     .frame(width: 60, height: 60)
@@ -86,9 +91,14 @@ struct PlacementButtonView : View {
             }
         }//HStack
     }
+    func resetPlacementParameters (){
+         self.isPlacementEnabled = false
+    }
+    
 }
 
 struct ModelPickerView: View {
+    @Binding var isPlacementEnabled: Bool
     
     var models: [String]
     var body : some View{
@@ -99,6 +109,7 @@ struct ModelPickerView: View {
                     //                        Text(self.models[index])
                     Button(action:{
                         print("DEBUG: Selected Model with name\(self.models[index])")
+                        self.isPlacementEnabled = true
                     }){
                         if let uiImage = UIImage(named: self.models[index]) {
                             Image(uiImage: uiImage)
