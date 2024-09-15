@@ -60,8 +60,8 @@ struct ARViewContainer: UIViewRepresentable {
     func makeUIView(context: Context) -> ARView {
         let arView = ARView(frame: .zero)
         let config =  ARWorldTrackingConfiguration()
-        config.planeDetection[.horizontal, .vertical]
-        config.environmentTexturing= .automatic
+        config.planeDetection = [.horizontal, .vertical]
+        config.environmentTexturing = .automatic
         
         if
             ARWorldTrackingConfiguration.supportsSceneReconstruction(.mesh){
@@ -78,6 +78,14 @@ struct ARViewContainer: UIViewRepresentable {
             //error: Modifying state during view update, this will cause undefined behavior.
 
 //            self.ModelConfirmedForPlacement = nil
+            
+            let filename = modelName + ".usdz"
+            let modelEntity = try!
+                ModelEntity.loadModel(named: modelName)
+            let anchorEntity = AnchorEntity(plane: .any)
+            anchorEntity.addChild(modelEntity)
+            uiView.scene.addAnchor(anchorEntity)
+            
             DispatchQueue.main.async {
                 self.ModelConfirmedForPlacement = nil
             }
