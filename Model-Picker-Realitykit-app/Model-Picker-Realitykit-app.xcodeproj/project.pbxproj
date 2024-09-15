@@ -14,6 +14,7 @@
 		152B4F7A2C89EFB00089EE71 /* Model_Picker_Realitykit_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152B4F792C89EFB00089EE71 /* Model_Picker_Realitykit_appTests.swift */; };
 		152B4F842C89EFB00089EE71 /* Model_Picker_Realitykit_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152B4F832C89EFB00089EE71 /* Model_Picker_Realitykit_appUITests.swift */; };
 		152B4F862C89EFB00089EE71 /* Model_Picker_Realitykit_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152B4F852C89EFB00089EE71 /* Model_Picker_Realitykit_appUITestsLaunchTests.swift */; };
+		15661F082C94B3500049EB2B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15661F072C94B3500049EB2B /* Model.swift */; };
 		15C898422C8B868F00EC41FF /* toy_drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 15C898412C8B868F00EC41FF /* toy_drummer.usdz */; };
 		15C898432C8B868F00EC41FF /* sneaker_airforce.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 15C898402C8B868F00EC41FF /* sneaker_airforce.usdz */; };
 		15C898442C8B868F00EC41FF /* CosmonautSuit.reality in Resources */ = {isa = PBXBuildFile; fileRef = 15C8983F2C8B868F00EC41FF /* CosmonautSuit.reality */; };
@@ -47,6 +48,7 @@
 		152B4F7F2C89EFB00089EE71 /* Model-Picker-Realitykit-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Model-Picker-Realitykit-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		152B4F832C89EFB00089EE71 /* Model_Picker_Realitykit_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Picker_Realitykit_appUITests.swift; sourceTree = "<group>"; };
 		152B4F852C89EFB00089EE71 /* Model_Picker_Realitykit_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Picker_Realitykit_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15661F072C94B3500049EB2B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		15C8983F2C8B868F00EC41FF /* CosmonautSuit.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = CosmonautSuit.reality; sourceTree = "<group>"; };
 		15C898402C8B868F00EC41FF /* sneaker_airforce.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = sneaker_airforce.usdz; sourceTree = "<group>"; };
 		15C898412C8B868F00EC41FF /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = toy_drummer.usdz; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			children = (
 				15D405682C8A41D7001F07E9 /* Models */,
 				152B4F682C89EFAE0089EE71 /* AppDelegate.swift */,
+				15661F072C94B3500049EB2B /* Model.swift */,
 				152B4F6A2C89EFAE0089EE71 /* ContentView.swift */,
 				152B4F6C2C89EFAF0089EE71 /* Assets.xcassets */,
 				152B4F6E2C89EFAF0089EE71 /* Preview Content */,
@@ -277,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15661F082C94B3500049EB2B /* Model.swift in Sources */,
 				152B4F6B2C89EFAE0089EE71 /* ContentView.swift in Sources */,
 				152B4F692C89EFAE0089EE71 /* AppDelegate.swift in Sources */,
 			);
