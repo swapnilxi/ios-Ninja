@@ -76,9 +76,9 @@ struct ARViewContainer: UIViewRepresentable {
         if let model = self.ModelConfirmedForPlacement{
             //try catch to check possiblity
             if let modelEntity = model.modelEntity {
-                print("DEBUG: Adding model to the scene - \(model.modelName)")
+                print("DEBUG: Adding model to the scene -  \(model.modelName)")
                 let anchorEntity = AnchorEntity( plane : .any)
-                anchorEntity.addChild(modelEntity)
+                anchorEntity.addChild(modelEntity.clone(recursive: true))
                 uiView.scene.addAnchor(anchorEntity)
             } else {
                 
