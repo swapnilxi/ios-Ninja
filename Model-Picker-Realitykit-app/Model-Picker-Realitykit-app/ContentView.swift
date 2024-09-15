@@ -16,12 +16,12 @@ struct ContentView : View {
     
     //ading state
     @State var isPlacementEnabled: Bool = false ;
-    @State var selectedModel: String?
-    @State var modelConfirmForPlacment: String?
-     
+    @State var selectedModel: Model?
+    @State var modelConfirmForPlacment: Model?
+      
     
     
-    private var models: [String] = {
+    private var models: [Model] = {
     // Dynamically get our model filenames
     let filemanager = FileManager.default
     guard let path = Bundle.main.resourcePath, let
@@ -30,12 +30,13 @@ struct ContentView : View {
     path) else {
     return[]
     }
-    var availableModels: [String] = []
+    var availableModels: [Model] = []
     for filename in files where
     filename.hasSuffix ("usdz") {
     let modelName = filename.replacingOccurrences(of:
     ".usdz", with: "")
-        availableModels.append (modelName)
+        let model =  Model(modelName: modelName)
+        availableModels.append (model)
     }
         return availableModels
     } ()
@@ -55,7 +56,7 @@ struct ContentView : View {
 }
 
 struct ARViewContainer: UIViewRepresentable {
-    @Binding var ModelConfirmedForPlacement: String?
+    @Binding var ModelConfirmedForPlacement: Model?
     
     func makeUIView(context: Context) -> ARView {
         let arView = ARView(frame: .zero)
@@ -72,19 +73,23 @@ struct ARViewContainer: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: ARView, context: Context) {
-        if let modelName = self.ModelConfirmedForPlacement{
-            print("DEBUG: Adding model to the scene - \(modelName)")
+        if let model = self.ModelConfirmedForPlacement{
+            //try catch to check possiblity
+            if let modelEntity = model.modelEntity {
+                print("DEBUG: Adding model to the scene - \(model.modelName)")
+                let anchorEntity = AnchorEntity( plane : .any)
+                anchorEntity.addChild(modelEntity)
+                uiView.scene.addAnchor(anchorEntity)
+            } else {
+                
+                print("DEBUG: unable to load model entity for \(model.modelName)")
+            }
+           
+            
             //this will give error because we are replacing while updating
             //error: Modifying state during view update, this will cause undefined behavior.
 
 //            self.ModelConfirmedForPlacement = nil
-            
-            let filename = modelName + ".usdz"
-            let modelEntity = try!
-                ModelEntity.loadModel(named: modelName)
-            let anchorEntity = AnchorEntity(plane: .any)
-            anchorEntity.addChild(modelEntity)
-            uiView.scene.addAnchor(anchorEntity)
             
             DispatchQueue.main.async {
                 self.ModelConfirmedForPlacement = nil
@@ -101,8 +106,8 @@ struct ARViewContainer: UIViewRepresentable {
 
 struct PlacementButtonView : View {
     @Binding var isPlacementEnabled: Bool
-    @Binding var selectedModel: String?
-    @Binding var modelConfiremedForPlacement: String?
+    @Binding var selectedModel: Model?
+    @Binding var modelConfiremedForPlacement: Model?
     
     var body: some View{
         HStack{
@@ -143,9 +148,9 @@ struct PlacementButtonView : View {
 
 struct ModelPickerView: View {
     @Binding var isPlacementEnabled: Bool
-    @Binding var selectedModel: String?
+    @Binding var selectedModel: Model?
     
-    var models: [String]
+    var models: [Model]
     var body : some View{
         ScrollView(.horizontal, showsIndicators: false){
             HStack(spacing:30){
@@ -153,13 +158,13 @@ struct ModelPickerView: View {
                     index in
                     //                        Text(self.models[index])
                     Button(action:{
-                        print("DEBUG: Selected Model with name\(self.models[index])")
+                        print("DEBUG: Selected Model with name\(self.models[index].modelName )")
                         
                         self.selectedModel=self.models[index]
                         self.isPlacementEnabled = true
                         
                     }){
-                        if let uiImage = UIImage(named: self.models[index]) {
+                        if let uiImage = self.models[index].image{
                             Image(uiImage: uiImage)
                                 .resizable()
                                 .frame(height: 80)

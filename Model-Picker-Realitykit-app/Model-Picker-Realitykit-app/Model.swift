@@ -12,7 +12,7 @@ import Combine
 
 class Model {
     var modelName : String
-    var image: UIImage
+    var image: UIImage?
     var modelEntity: ModelEntity?
     
     private var cancellable : AnyCancellable? = nil
@@ -34,5 +34,6 @@ class Model {
                 
             }
             )
+
     }
 }
