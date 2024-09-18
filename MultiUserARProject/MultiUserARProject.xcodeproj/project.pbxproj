@@ -3,69 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		158A51572C97657700C71664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158A51562C97657700C71664 /* AppDelegate.swift */; };
-		158A51592C97657700C71664 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158A51582C97657700C71664 /* ContentView.swift */; };
-		158A515B2C97657800C71664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 158A515A2C97657800C71664 /* Assets.xcassets */; };
-		158A515E2C97657800C71664 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 158A515D2C97657800C71664 /* Preview Assets.xcassets */; };
-		158A51682C97657800C71664 /* local_tv_video_reality_kitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158A51672C97657800C71664 /* local_tv_video_reality_kitTests.swift */; };
-		158A51722C97657800C71664 /* local_tv_video_reality_kitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158A51712C97657800C71664 /* local_tv_video_reality_kitUITests.swift */; };
-		158A51742C97657800C71664 /* local_tv_video_reality_kitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158A51732C97657800C71664 /* local_tv_video_reality_kitUITestsLaunchTests.swift */; };
+		15666D842C9A08AC00A91D64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15666D832C9A08AC00A91D64 /* AppDelegate.swift */; };
+		15666D862C9A08AC00A91D64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15666D852C9A08AC00A91D64 /* ContentView.swift */; };
+		15666D882C9A08AE00A91D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15666D872C9A08AE00A91D64 /* Assets.xcassets */; };
+		15666D8B2C9A08AE00A91D64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15666D8A2C9A08AE00A91D64 /* Preview Assets.xcassets */; };
+		15666D952C9A08AE00A91D64 /* MultiUserARProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15666D942C9A08AE00A91D64 /* MultiUserARProjectTests.swift */; };
+		15666D9F2C9A08AE00A91D64 /* MultiUserARProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15666D9E2C9A08AE00A91D64 /* MultiUserARProjectUITests.swift */; };
+		15666DA12C9A08AE00A91D64 /* MultiUserARProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15666DA02C9A08AE00A91D64 /* MultiUserARProjectUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		158A51642C97657800C71664 /* PBXContainerItemProxy */ = {
+		15666D912C9A08AE00A91D64 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 158A514B2C97657700C71664 /* Project object */;
+			containerPortal = 15666D782C9A08AC00A91D64 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 158A51522C97657700C71664;
-			remoteInfo = "local-tv-video-reality-kit";
+			remoteGlobalIDString = 15666D7F2C9A08AC00A91D64;
+			remoteInfo = MultiUserARProject;
 		};
-		158A516E2C97657800C71664 /* PBXContainerItemProxy */ = {
+		15666D9B2C9A08AE00A91D64 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 158A514B2C97657700C71664 /* Project object */;
+			containerPortal = 15666D782C9A08AC00A91D64 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 158A51522C97657700C71664;
-			remoteInfo = "local-tv-video-reality-kit";
+			remoteGlobalIDString = 15666D7F2C9A08AC00A91D64;
+			remoteInfo = MultiUserARProject;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		158A51532C97657700C71664 /* local-tv-video-reality-kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "local-tv-video-reality-kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		158A51562C97657700C71664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		158A51582C97657700C71664 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		158A515A2C97657800C71664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		158A515D2C97657800C71664 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		158A51632C97657800C71664 /* local-tv-video-reality-kitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "local-tv-video-reality-kitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		158A51672C97657800C71664 /* local_tv_video_reality_kitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = local_tv_video_reality_kitTests.swift; sourceTree = "<group>"; };
-		158A516D2C97657800C71664 /* local-tv-video-reality-kitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "local-tv-video-reality-kitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		158A51712C97657800C71664 /* local_tv_video_reality_kitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = local_tv_video_reality_kitUITests.swift; sourceTree = "<group>"; };
-		158A51732C97657800C71664 /* local_tv_video_reality_kitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = local_tv_video_reality_kitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15666D802C9A08AC00A91D64 /* MultiUserARProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiUserARProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15666D832C9A08AC00A91D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15666D852C9A08AC00A91D64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15666D872C9A08AE00A91D64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15666D8A2C9A08AE00A91D64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15666D902C9A08AE00A91D64 /* MultiUserARProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiUserARProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15666D942C9A08AE00A91D64 /* MultiUserARProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiUserARProjectTests.swift; sourceTree = "<group>"; };
+		15666D9A2C9A08AE00A91D64 /* MultiUserARProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiUserARProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15666D9E2C9A08AE00A91D64 /* MultiUserARProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiUserARProjectUITests.swift; sourceTree = "<group>"; };
+		15666DA02C9A08AE00A91D64 /* MultiUserARProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiUserARProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		15666D762C9987D200A91D64 /* Videos */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Videos; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		158A51502C97657700C71664 /* Frameworks */ = {
+		15666D7D2C9A08AC00A91D64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		158A51602C97657800C71664 /* Frameworks */ = {
+		15666D8D2C9A08AE00A91D64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		158A516A2C97657800C71664 /* Frameworks */ = {
+		15666D972C9A08AE00A91D64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,143 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		158A514A2C97657700C71664 = {
+		15666D772C9A08AC00A91D64 = {
 			isa = PBXGroup;
 			children = (
-				158A51552C97657700C71664 /* local-tv-video-reality-kit */,
-				158A51662C97657800C71664 /* local-tv-video-reality-kitTests */,
-				158A51702C97657800C71664 /* local-tv-video-reality-kitUITests */,
-				158A51542C97657700C71664 /* Products */,
+				15666D822C9A08AC00A91D64 /* MultiUserARProject */,
+				15666D932C9A08AE00A91D64 /* MultiUserARProjectTests */,
+				15666D9D2C9A08AE00A91D64 /* MultiUserARProjectUITests */,
+				15666D812C9A08AC00A91D64 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		158A51542C97657700C71664 /* Products */ = {
+		15666D812C9A08AC00A91D64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				158A51532C97657700C71664 /* local-tv-video-reality-kit.app */,
-				158A51632C97657800C71664 /* local-tv-video-reality-kitTests.xctest */,
-				158A516D2C97657800C71664 /* local-tv-video-reality-kitUITests.xctest */,
+				15666D802C9A08AC00A91D64 /* MultiUserARProject.app */,
+				15666D902C9A08AE00A91D64 /* MultiUserARProjectTests.xctest */,
+				15666D9A2C9A08AE00A91D64 /* MultiUserARProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		158A51552C97657700C71664 /* local-tv-video-reality-kit */ = {
+		15666D822C9A08AC00A91D64 /* MultiUserARProject */ = {
 			isa = PBXGroup;
 			children = (
-				15666D762C9987D200A91D64 /* Videos */,
-				158A51562C97657700C71664 /* AppDelegate.swift */,
-				158A51582C97657700C71664 /* ContentView.swift */,
-				158A515A2C97657800C71664 /* Assets.xcassets */,
-				158A515C2C97657800C71664 /* Preview Content */,
+				15666D832C9A08AC00A91D64 /* AppDelegate.swift */,
+				15666D852C9A08AC00A91D64 /* ContentView.swift */,
+				15666D872C9A08AE00A91D64 /* Assets.xcassets */,
+				15666D892C9A08AE00A91D64 /* Preview Content */,
 			);
-			path = "local-tv-video-reality-kit";
+			path = MultiUserARProject;
 			sourceTree = "<group>";
 		};
-		158A515C2C97657800C71664 /* Preview Content */ = {
+		15666D892C9A08AE00A91D64 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				158A515D2C97657800C71664 /* Preview Assets.xcassets */,
+				15666D8A2C9A08AE00A91D64 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		158A51662C97657800C71664 /* local-tv-video-reality-kitTests */ = {
+		15666D932C9A08AE00A91D64 /* MultiUserARProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				158A51672C97657800C71664 /* local_tv_video_reality_kitTests.swift */,
+				15666D942C9A08AE00A91D64 /* MultiUserARProjectTests.swift */,
 			);
-			path = "local-tv-video-reality-kitTests";
+			path = MultiUserARProjectTests;
 			sourceTree = "<group>";
 		};
-		158A51702C97657800C71664 /* local-tv-video-reality-kitUITests */ = {
+		15666D9D2C9A08AE00A91D64 /* MultiUserARProjectUITests */ = {
 			isa = PBXGroup;
 			children = (
-				158A51712C97657800C71664 /* local_tv_video_reality_kitUITests.swift */,
-				158A51732C97657800C71664 /* local_tv_video_reality_kitUITestsLaunchTests.swift */,
+				15666D9E2C9A08AE00A91D64 /* MultiUserARProjectUITests.swift */,
+				15666DA02C9A08AE00A91D64 /* MultiUserARProjectUITestsLaunchTests.swift */,
 			);
-			path = "local-tv-video-reality-kitUITests";
+			path = MultiUserARProjectUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		158A51522C97657700C71664 /* local-tv-video-reality-kit */ = {
+		15666D7F2C9A08AC00A91D64 /* MultiUserARProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 158A51772C97657800C71664 /* Build configuration list for PBXNativeTarget "local-tv-video-reality-kit" */;
+			buildConfigurationList = 15666DA42C9A08AE00A91D64 /* Build configuration list for PBXNativeTarget "MultiUserARProject" */;
 			buildPhases = (
-				158A514F2C97657700C71664 /* Sources */,
-				158A51502C97657700C71664 /* Frameworks */,
-				158A51512C97657700C71664 /* Resources */,
+				15666D7C2C9A08AC00A91D64 /* Sources */,
+				15666D7D2C9A08AC00A91D64 /* Frameworks */,
+				15666D7E2C9A08AC00A91D64 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "local-tv-video-reality-kit";
-			productName = "local-tv-video-reality-kit";
-			productReference = 158A51532C97657700C71664 /* local-tv-video-reality-kit.app */;
+			name = MultiUserARProject;
+			productName = MultiUserARProject;
+			productReference = 15666D802C9A08AC00A91D64 /* MultiUserARProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		158A51622C97657800C71664 /* local-tv-video-reality-kitTests */ = {
+		15666D8F2C9A08AE00A91D64 /* MultiUserARProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 158A517A2C97657800C71664 /* Build configuration list for PBXNativeTarget "local-tv-video-reality-kitTests" */;
+			buildConfigurationList = 15666DA72C9A08AE00A91D64 /* Build configuration list for PBXNativeTarget "MultiUserARProjectTests" */;
 			buildPhases = (
-				158A515F2C97657800C71664 /* Sources */,
-				158A51602C97657800C71664 /* Frameworks */,
-				158A51612C97657800C71664 /* Resources */,
+				15666D8C2C9A08AE00A91D64 /* Sources */,
+				15666D8D2C9A08AE00A91D64 /* Frameworks */,
+				15666D8E2C9A08AE00A91D64 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				158A51652C97657800C71664 /* PBXTargetDependency */,
+				15666D922C9A08AE00A91D64 /* PBXTargetDependency */,
 			);
-			name = "local-tv-video-reality-kitTests";
-			productName = "local-tv-video-reality-kitTests";
-			productReference = 158A51632C97657800C71664 /* local-tv-video-reality-kitTests.xctest */;
+			name = MultiUserARProjectTests;
+			productName = MultiUserARProjectTests;
+			productReference = 15666D902C9A08AE00A91D64 /* MultiUserARProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		158A516C2C97657800C71664 /* local-tv-video-reality-kitUITests */ = {
+		15666D992C9A08AE00A91D64 /* MultiUserARProjectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 158A517D2C97657800C71664 /* Build configuration list for PBXNativeTarget "local-tv-video-reality-kitUITests" */;
+			buildConfigurationList = 15666DAA2C9A08AE00A91D64 /* Build configuration list for PBXNativeTarget "MultiUserARProjectUITests" */;
 			buildPhases = (
-				158A51692C97657800C71664 /* Sources */,
-				158A516A2C97657800C71664 /* Frameworks */,
-				158A516B2C97657800C71664 /* Resources */,
+				15666D962C9A08AE00A91D64 /* Sources */,
+				15666D972C9A08AE00A91D64 /* Frameworks */,
+				15666D982C9A08AE00A91D64 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				158A516F2C97657800C71664 /* PBXTargetDependency */,
+				15666D9C2C9A08AE00A91D64 /* PBXTargetDependency */,
 			);
-			name = "local-tv-video-reality-kitUITests";
-			productName = "local-tv-video-reality-kitUITests";
-			productReference = 158A516D2C97657800C71664 /* local-tv-video-reality-kitUITests.xctest */;
+			name = MultiUserARProjectUITests;
+			productName = MultiUserARProjectUITests;
+			productReference = 15666D9A2C9A08AE00A91D64 /* MultiUserARProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		158A514B2C97657700C71664 /* Project object */ = {
+		15666D782C9A08AC00A91D64 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					158A51522C97657700C71664 = {
+					15666D7F2C9A08AC00A91D64 = {
 						CreatedOnToolsVersion = 16.0;
 					};
-					158A51622C97657800C71664 = {
+					15666D8F2C9A08AE00A91D64 = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 158A51522C97657700C71664;
+						TestTargetID = 15666D7F2C9A08AC00A91D64;
 					};
-					158A516C2C97657800C71664 = {
+					15666D992C9A08AE00A91D64 = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 158A51522C97657700C71664;
+						TestTargetID = 15666D7F2C9A08AC00A91D64;
 					};
 				};
 			};
-			buildConfigurationList = 158A514E2C97657700C71664 /* Build configuration list for PBXProject "local-tv-video-reality-kit" */;
+			buildConfigurationList = 15666D7B2C9A08AC00A91D64 /* Build configuration list for PBXProject "MultiUserARProject" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 158A514A2C97657700C71664;
-			productRefGroup = 158A51542C97657700C71664 /* Products */;
+			mainGroup = 15666D772C9A08AC00A91D64;
+			productRefGroup = 15666D812C9A08AC00A91D64 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				158A51522C97657700C71664 /* local-tv-video-reality-kit */,
-				158A51622C97657800C71664 /* local-tv-video-reality-kitTests */,
-				158A516C2C97657800C71664 /* local-tv-video-reality-kitUITests */,
+				15666D7F2C9A08AC00A91D64 /* MultiUserARProject */,
+				15666D8F2C9A08AE00A91D64 /* MultiUserARProjectTests */,
+				15666D992C9A08AE00A91D64 /* MultiUserARProjectUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		158A51512C97657700C71664 /* Resources */ = {
+		15666D7E2C9A08AC00A91D64 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				158A515E2C97657800C71664 /* Preview Assets.xcassets in Resources */,
-				158A515B2C97657800C71664 /* Assets.xcassets in Resources */,
+				15666D8B2C9A08AE00A91D64 /* Preview Assets.xcassets in Resources */,
+				15666D882C9A08AE00A91D64 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		158A51612C97657800C71664 /* Resources */ = {
+		15666D8E2C9A08AE00A91D64 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		158A516B2C97657800C71664 /* Resources */ = {
+		15666D982C9A08AE00A91D64 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,49 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		158A514F2C97657700C71664 /* Sources */ = {
+		15666D7C2C9A08AC00A91D64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				158A51592C97657700C71664 /* ContentView.swift in Sources */,
-				158A51572C97657700C71664 /* AppDelegate.swift in Sources */,
+				15666D862C9A08AC00A91D64 /* ContentView.swift in Sources */,
+				15666D842C9A08AC00A91D64 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		158A515F2C97657800C71664 /* Sources */ = {
+		15666D8C2C9A08AE00A91D64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				158A51682C97657800C71664 /* local_tv_video_reality_kitTests.swift in Sources */,
+				15666D952C9A08AE00A91D64 /* MultiUserARProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		158A51692C97657800C71664 /* Sources */ = {
+		15666D962C9A08AE00A91D64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				158A51742C97657800C71664 /* local_tv_video_reality_kitUITestsLaunchTests.swift in Sources */,
-				158A51722C97657800C71664 /* local_tv_video_reality_kitUITests.swift in Sources */,
+				15666DA12C9A08AE00A91D64 /* MultiUserARProjectUITestsLaunchTests.swift in Sources */,
+				15666D9F2C9A08AE00A91D64 /* MultiUserARProjectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		158A51652C97657800C71664 /* PBXTargetDependency */ = {
+		15666D922C9A08AE00A91D64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 158A51522C97657700C71664 /* local-tv-video-reality-kit */;
-			targetProxy = 158A51642C97657800C71664 /* PBXContainerItemProxy */;
+			target = 15666D7F2C9A08AC00A91D64 /* MultiUserARProject */;
+			targetProxy = 15666D912C9A08AE00A91D64 /* PBXContainerItemProxy */;
 		};
-		158A516F2C97657800C71664 /* PBXTargetDependency */ = {
+		15666D9C2C9A08AE00A91D64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 158A51522C97657700C71664 /* local-tv-video-reality-kit */;
-			targetProxy = 158A516E2C97657800C71664 /* PBXContainerItemProxy */;
+			target = 15666D7F2C9A08AC00A91D64 /* MultiUserARProject */;
+			targetProxy = 15666D9B2C9A08AE00A91D64 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		158A51752C97657800C71664 /* Debug */ = {
+		15666DA22C9A08AE00A91D64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -363,7 +358,7 @@
 			};
 			name = Debug;
 		};
-		158A51762C97657800C71664 /* Release */ = {
+		15666DA32C9A08AE00A91D64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -419,14 +414,14 @@
 			};
 			name = Release;
 		};
-		158A51782C97657800C71664 /* Debug */ = {
+		15666DA52C9A08AE00A91D64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"local-tv-video-reality-kit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MultiUserARProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -441,7 +436,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.swapnilxi.local-tv-video-reality-kit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swapnilxi.MultiUserARProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -449,14 +444,14 @@
 			};
 			name = Debug;
 		};
-		158A51792C97657800C71664 /* Release */ = {
+		15666DA62C9A08AE00A91D64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"local-tv-video-reality-kit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MultiUserARProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -471,7 +466,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.swapnilxi.local-tv-video-reality-kit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swapnilxi.MultiUserARProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -479,7 +474,7 @@
 			};
 			name = Release;
 		};
-		158A517B2C97657800C71664 /* Debug */ = {
+		15666DA82C9A08AE00A91D64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,16 +483,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.swapnilxi.local-tv-video-reality-kitTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swapnilxi.MultiUserARProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/local-tv-video-reality-kit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/local-tv-video-reality-kit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiUserARProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MultiUserARProject";
 			};
 			name = Debug;
 		};
-		158A517C2C97657800C71664 /* Release */ = {
+		15666DA92C9A08AE00A91D64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,87 +501,87 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.swapnilxi.local-tv-video-reality-kitTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swapnilxi.MultiUserARProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/local-tv-video-reality-kit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/local-tv-video-reality-kit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiUserARProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MultiUserARProject";
 			};
 			name = Release;
 		};
-		158A517E2C97657800C71664 /* Debug */ = {
+		15666DAB2C9A08AE00A91D64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.swapnilxi.local-tv-video-reality-kitUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swapnilxi.MultiUserARProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "local-tv-video-reality-kit";
+				TEST_TARGET_NAME = MultiUserARProject;
 			};
 			name = Debug;
 		};
-		158A517F2C97657800C71664 /* Release */ = {
+		15666DAC2C9A08AE00A91D64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.swapnilxi.local-tv-video-reality-kitUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swapnilxi.MultiUserARProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "local-tv-video-reality-kit";
+				TEST_TARGET_NAME = MultiUserARProject;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		158A514E2C97657700C71664 /* Build configuration list for PBXProject "local-tv-video-reality-kit" */ = {
+		15666D7B2C9A08AC00A91D64 /* Build configuration list for PBXProject "MultiUserARProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				158A51752C97657800C71664 /* Debug */,
-				158A51762C97657800C71664 /* Release */,
+				15666DA22C9A08AE00A91D64 /* Debug */,
+				15666DA32C9A08AE00A91D64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		158A51772C97657800C71664 /* Build configuration list for PBXNativeTarget "local-tv-video-reality-kit" */ = {
+		15666DA42C9A08AE00A91D64 /* Build configuration list for PBXNativeTarget "MultiUserARProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				158A51782C97657800C71664 /* Debug */,
-				158A51792C97657800C71664 /* Release */,
+				15666DA52C9A08AE00A91D64 /* Debug */,
+				15666DA62C9A08AE00A91D64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		158A517A2C97657800C71664 /* Build configuration list for PBXNativeTarget "local-tv-video-reality-kitTests" */ = {
+		15666DA72C9A08AE00A91D64 /* Build configuration list for PBXNativeTarget "MultiUserARProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				158A517B2C97657800C71664 /* Debug */,
-				158A517C2C97657800C71664 /* Release */,
+				15666DA82C9A08AE00A91D64 /* Debug */,
+				15666DA92C9A08AE00A91D64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		158A517D2C97657800C71664 /* Build configuration list for PBXNativeTarget "local-tv-video-reality-kitUITests" */ = {
+		15666DAA2C9A08AE00A91D64 /* Build configuration list for PBXNativeTarget "MultiUserARProjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				158A517E2C97657800C71664 /* Debug */,
-				158A517F2C97657800C71664 /* Release */,
+				15666DAB2C9A08AE00A91D64 /* Debug */,
+				15666DAC2C9A08AE00A91D64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 158A514B2C97657700C71664 /* Project object */;
+	rootObject = 15666D782C9A08AC00A91D64 /* Project object */;
 }
