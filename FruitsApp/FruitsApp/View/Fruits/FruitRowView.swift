@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FruitsRowView: View {
+struct FruitRowView: View {
     // MARK: - PROPERTIES
     
     var fruit: Fruit
